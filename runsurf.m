@@ -1,8 +1,5 @@
 function [ye,nc,sc,per] = runsurf(numVar, numImg)
-%addpath('C:\Users\ameya\Documents\MATLAB\seg');
-%addpath('C:\Users\ameya\Documents\MATLAB\PRoiN');
-addpath('C:\Users\ameya\Documents\MATLAB\iitr');
-%[imds, imgs, bag, cls, cls2, c, clfr, ca, cak, imds2, imgs2, nc, ye]
+
 cls=zeros(numVar*numImg,1);
 
 cls2=zeros(numVar,1);
@@ -63,9 +60,7 @@ for ii=1:numImg
 end
 end
 
-% rmpath('C:\Users\ameya\Documents\MATLAB\iitr');
-% addpath('C:\Users\ameya\Documents\MATLAB\seg');
-% 
+
 % for in=1:numVar
 % %     if in>10 && in<18
 % %         continue
@@ -123,7 +118,6 @@ imds=imageDatastore(ca,'LabelSource','foldernames');
 imgs=readall(imds);
 nn=grp2idx(imds.Labels);
 %fh=@sift;
-%fh=@brisk;
 
 for uo=1:length(nn)
     nn(uo)=cls(uo);
@@ -192,9 +186,7 @@ for ii=1:5
 end
 end
 
-% rmpath('C:\Users\ameya\Documents\MATLAB\seg');
-% addpath('C:\Users\ameya\Documents\MATLAB\iitr');
-%    
+
 % for in=1:numVar
 %     ii=5;
 %     
