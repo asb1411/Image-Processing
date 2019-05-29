@@ -1,8 +1,7 @@
 function [msmat, cls, c, nc, per, sc] = rungmf(numVar, numImg)
-%addpath('D:\IITD Palmprint V1\Segmented\Right');
+
 c=0;
-%addpath('C:\Users\ameya\Documents\MATLAB\iitr');
-addpath('C:\Users\ameya\Documents\MATLAB\PRoiN');
+
 msmat=zeros(numVar*numImg,100);
 cls=zeros(numVar*numImg,1);
 c=1;
@@ -59,9 +58,7 @@ for ii=1:numImg
 end
 end
 
-% rmpath('C:\Users\ameya\Documents\MATLAB\iitr');
-% addpath('C:\Users\ameya\Documents\MATLAB\seg');
-% 
+
 % for in=1:numVar
 % for ii=1:numImg
 %     if(in<10)
@@ -193,8 +190,7 @@ for ii=1:8
     
 end
 end
-% rmpath('C:\Users\ameya\Documents\MATLAB\seg');
-% addpath('C:\Users\ameya\Documents\MATLAB\iitr');
+
 % for in=1:numVar
 %     for ii=1:5
 %         if(in<10)
