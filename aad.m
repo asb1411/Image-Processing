@@ -1,6 +1,7 @@
 function [t] = aad(img)
-%UNTITLED5 Summary of this function goes here
-%   Detailed explanation goes here
+% Extracts the Average Absolute Deviation of the given image cell
+%   Input img: Cell of image windows...create image windows using divImg function
+%   Output t: Feature vector of length 100
 t=zeros(1,100);
 
 [c, ~]=meanStd(img);
