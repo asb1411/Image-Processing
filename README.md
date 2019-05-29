@@ -7,5 +7,5 @@ This folder includes the MATLAB implementation of 5 different feature extraction
 4. SURF (Speeded-Up Robust Feature)
 5. SIFT (Scale Invariant Feature Transform)
 
-It also includes the code to test the features using SVM and KNN.
+It also includes the code to test the features using SVM and KNN along with the file to extract palmprint ROI.
 The features extractions is tested across IIT-D and PolyU datasets of palmprint.
