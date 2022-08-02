@@ -1,4 +1,4 @@
-%% PALMPRINT RECOGNITION %%
+# PALMPRINT RECOGNITION #
 
 This folder includes the MATLAB implementation of 5 different feature extraction algorithms.
 1. Mean
